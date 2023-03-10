@@ -1,5 +1,5 @@
 # Mastermind
-Mastermind board game implementation in Python with Player vs CPU mode and Knuth method algorithm[^1].
+Mastermind board game implementation in Python with Player vs CPU mode and Knuth method algorithm [(read here)](https://github.com/chixPL/mastermind#knuths-method-algorithm)[^1].
 
 *🇵🇱️ The Polish version is available [here.](https://github.com/chixPL/mastermind/tree/polish)*
 
@@ -58,5 +58,7 @@ The correct combination is 1234. For player deck=1122, we get a response of 1 bl
 7. Repeat from 3.
 
 ### Credits:
-- [^1]Donald Knuth for coming up with the algorithm [(source)](http://www.cs.uni.edu/~wallingf/teaching/cs3530/resources/knuth-mastermind.pdf)
+- Donald Knuth for coming up with the algorithm.
 - Ilan Schnell for a more coherent explanation of the algorithm [(source)](https://github.com/ilanschnell/mastermind)
+
+[^1]: Adapted from: http://www.cs.uni.edu/~wallingf/teaching/cs3530/resources/knuth-mastermind.pdf
