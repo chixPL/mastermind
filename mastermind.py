@@ -118,7 +118,7 @@ class Mastermind:
                     self.answers.append('W')
                 else:
                     self.answers.append('')
-            if(all(list(filter(lambda x: x=='K', self.answers)))): # If all pegs in the checking deck are black, end the game
+            if self.answers == ['K', 'K', 'K', 'K']: # If all pegs in the checking deck are black, end the game
                 self.gameEnd = True
                 print("You won!")
                 exit()
